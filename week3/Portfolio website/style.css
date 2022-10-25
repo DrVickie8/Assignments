@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+} 
+
+nav, a {
+  transition: 0.3s;
+}
+
+nav, header {
+  position: sticky;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: #fcfcfc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+  color: #4756df;
+}
+
+header li a {
+  color: #4756df;
+  text-decoration: none;
+  width: 100%;
+}
+
+a:active {
+  background-color: #efcc00
+  color: #fffacd;
+}
+
+ nav, h1, a {
+  color: #4756df;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4756df;
+}
+
+nav, ul, li {
+  font-weight: 700;
+}
+
+nav, a:hover {
+  color: #ff7235;
+}
+
+a:hover {
+  border-bottom: 2px solid #ff7235;
+}
+
+body {
+  font-family: sans sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.hero img {
+  height: 37.5rem;
+  width: 37.5rem;
+}
+
+.hero img {
+  height: 37.5rem;
+  width: 37.5rem;
+}
+
+.bio {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px #8b8eaf;
+}
+
+.bio h1 {
+  margin-bottom: 0.5rem;
+}
+
+.bio p {
+  line-height: 1.7rem;
+  padding: 0.3rem 0;
+}
+
+p, h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+p {
+  background-color: #fcfcfc;
+  color: #4756df;
+  padding: 15px;
+  font-size: 19px;
+}
